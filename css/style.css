@@ -324,6 +324,28 @@ blockquote.vision {
   color: var(--ink);
 }
 
+/* ---------- Photo band ---------- */
+
+.photo-band {
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.photo-band img {
+  display: block;
+  width: 100%;
+  height: clamp(240px, 38vw, 420px);
+  object-fit: cover;
+}
+
+.photo-band.superior-rocks img {
+  object-position: center 30%;
+}
+
+.photo-band.autumn-river img {
+  object-position: center 55%;
+}
+
 /* ---------- Numbered / card grid ---------- */
 
 .grid-3 {
