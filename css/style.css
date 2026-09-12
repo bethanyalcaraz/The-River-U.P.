@@ -332,7 +332,6 @@ blockquote.vision {
 /* ---------- Photo band ---------- */
 
 .photo-band {
-  position: relative;
   border-bottom: 1px solid var(--line);
   overflow: hidden;
 }
@@ -346,30 +345,6 @@ blockquote.vision {
 
 .photo-band.autumn-river img {
   object-position: center 55%;
-}
-
-.photo-cta {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  flex-wrap: wrap;
-  padding: 20px;
-}
-
-.photo-cta .btn-frosted {
-  background: rgba(24, 42, 35, 0.45);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  color: var(--ink);
-  border-color: rgba(243, 245, 242, 0.6);
-}
-
-.photo-cta .btn-frosted:hover {
-  background: rgba(24, 42, 35, 0.6);
-  border-color: var(--ink);
 }
 
 .photo-band.superior-rocks img {
