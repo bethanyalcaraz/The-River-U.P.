@@ -332,6 +332,7 @@ blockquote.vision {
 /* ---------- Photo band ---------- */
 
 .photo-band {
+  position: relative;
   border-bottom: 1px solid var(--line);
   overflow: hidden;
 }
@@ -341,6 +342,31 @@ blockquote.vision {
   width: 100%;
   height: clamp(240px, 38vw, 420px);
   object-fit: cover;
+}
+
+.photo-cta {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.photo-cta .btn {
+  width: 210px;
+  max-width: 100%;
+  justify-content: center;
+  background: #ffffff;
+  color: var(--bg);
+  border-color: #ffffff;
+}
+
+.photo-cta .btn:hover {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.85);
 }
 
 .photo-band.autumn-river img {
