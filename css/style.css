@@ -219,7 +219,7 @@ nav.links a:hover {
 .hero {
   position: relative;
   padding: 128px 0 100px;
-  background-image: linear-gradient(165deg, rgba(24, 42, 35, 0.82) 0%, rgba(24, 42, 35, 0.92) 100%), url("../images/rapidriver2.jpg");
+  background-image: linear-gradient(165deg, rgba(24, 42, 35, 0.6) 0%, rgba(24, 42, 35, 0.72) 100%), url("../images/rapidriver2.jpg");
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--line);
@@ -227,6 +227,7 @@ nav.links a:hover {
 
 .hero-copy {
   max-width: 620px;
+  text-shadow: 0 1px 16px rgba(13, 22, 18, 0.55);
 }
 
 .eyebrow {
@@ -258,9 +259,10 @@ nav.links a:hover {
   padding: 80px 0;
   border-bottom: 1px solid var(--line);
   text-align: center;
-  background-image: linear-gradient(rgba(24, 42, 35, 0.8), rgba(24, 42, 35, 0.86)), url("../images/rapidriver1.jpg");
+  background-image: linear-gradient(rgba(24, 42, 35, 0.58), rgba(24, 42, 35, 0.66)), url("../images/rapidriver1.jpg");
   background-size: cover;
   background-position: center;
+  text-shadow: 0 1px 16px rgba(13, 22, 18, 0.55);
 }
 
 .verse-text {
